@@ -39,4 +39,4 @@ const chatroom = new ChatRoom("general");
 const chatUI = new ChatUI(chatList);
 
 // Method calls
-chatroom.getChats((data) => chatUI.Messages(data));
+chatroom.getChats((data) => chatUI.renderMessages(data));
